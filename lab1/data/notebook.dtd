@@ -1,0 +1,13 @@
+<!DOCTYPE notebook [
+
+<!ELEMENT notebook (day*)>
+<!ELEMENT day (event*)>
+<!ELEMENT event EMPTY>
+
+<!ATTLIST day date CDATA #REQUIRED>
+<!ATTLIST day id ID #REQUIRED>
+<!ATTLIST event id ID #REQUIRED>
+<!ATTLIST event name CDATA #REQUIRED>
+<!ATTLIST event time CDATA #REQUIRED>
+<!ATTLIST event mandatory CDATA #REQUIRED>
+]>

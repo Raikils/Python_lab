@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE notebook [
+
+<!ELEMENT notebook (day*)>
+<!ELEMENT day (event*)>
+<!ELEMENT event EMPTY>
+
+<!ATTLIST day date CDATA #REQUIRED>
+<!ATTLIST day id ID #REQUIRED>
+<!ATTLIST event id ID #REQUIRED>
+<!ATTLIST event name CDATA #REQUIRED>
+<!ATTLIST event time CDATA #REQUIRED>
+<!ATTLIST event mandatory CDATA #REQUIRED>
+]>
+<notebook>
+   <day id="fr57h" date="2023-01-01">
+      <event id="gf85re" name="Birthday" time="9:00:00" mandatory="True" />
+      <event id="er84e9" name="Fair" time="12:24:00" mandatory="False" />
+   </day>
+   <day id="ad896" date="2023-07-12">
+      <event id="ki8elo" name="Fair" time="13:00:00" mandatory="False" />
+   </day>
+</notebook>
